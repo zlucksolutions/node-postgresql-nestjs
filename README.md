@@ -16,6 +16,8 @@ $ nest g res user
 
 $ npm i --save class-validator class-transformer
 
+## create database
+
 create database book;
 CREATE TABLE book ( id SERIAL PRIMARY KEY, book_name VARCHAR(100),author VARCHAR(100),delete_status BOOLEAN DEFAULT true,created_at TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,updated_at TIMESTAMP default current_timestamp);
 
